@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container .cube {
+    width: 800px;
+    height: 450px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+    background-color: rgb(220, 220, 220);
+    border-radius: 10px;
+    animation: move 5s infinite 2s linear;
+}
+
+@keyframes move {
+    0% {
+        width: 800px;
+        height: 450px;
+    }
+    10%{
+        width: 100px;
+        height: 450px;
+    }
+    20% {
+        width: 100px;
+        height: 100px;
+    }
+    40% {
+        width: 100px;
+        height: 100px;
+        transform: scale(1);
+    }
+    45% {
+        transform: scale(0.8);
+        width: 100px;
+        height: 100px;
+    }
+    50% {
+        transform: scale(1);
+        width: 100px;
+        height: 100px;
+    }
+    60% {
+        width: 100px;
+        height: 100px;
+    }
+    70% {
+        width: 100px;
+        height: 450px;
+    }
+    90% {
+        width: 800px;
+        height: 450px;
+    }
+}
