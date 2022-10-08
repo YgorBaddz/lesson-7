@@ -14,8 +14,7 @@
 .container .cube {
     width: 800px;
     height: 450px;
-    box-shadow: inset 0px 0px 0px rgb(133, 133, 133),
-          15px 10px 10px rgb(133, 133, 133);
+    box-shadow: inset 0px 0px 0px rgb(133, 133, 133), 15px 10px 10px rgb(133, 133, 133);
     background-color: rgb(220, 220, 220);
     border-radius: 10px;
     animation: move 5s infinite 2s linear;
